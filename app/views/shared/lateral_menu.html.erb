@@ -1,0 +1,26 @@
+<%= javascript_pack_tag 'lateral_menu'%>
+<div class="lateral_menu text-center">
+    <div class="page-header mt-3 mb-3">
+        <%= image_tag 'logo' %>
+    </div>
+
+    <ul class="me-4">
+        <li>
+            <%= link_to root_path do %>
+                HOME
+            <% end %>
+        </li>
+        
+        <li>
+            <%= link_to blog_index_path, :"data-turbolinks" => false do %>
+                BLOG
+            <% end %>
+        </li>
+
+        <li>
+            <%= link_to portfolio_index_path do %>
+                SOBRE MIM
+            <% end %>
+        </li>
+    </ul>
+</div>

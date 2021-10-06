@@ -11,6 +11,22 @@
   </head>
 
   <body>
+  <!-- Menu button -->
+    <div class="mobile-lateral-menu">
+      <button class="navbar-toggler">
+        <%= image_tag 'programming' %>
+      </button>
+    </div>
+    
+    <div class="row application_row">
+      <div class="col-md-3">
+        <%= render 'shared/lateral_menu' %>
+      </div>
+
+      <div class="col-md-9">
+        <%= yield %>
+      </div>
+    </div>
     <%= yield %>
   </body>
 </html>
