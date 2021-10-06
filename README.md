@@ -1,24 +1,14 @@
-# README
+# Blog Dev Junior
+This is my blog \o/ Enjoy It and I hope you can learn a lot!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Technology
+Here are the technologies used in this project.
 
-* Ruby version
+* Ruby 3.0.1
 
-* System dependencies
+* Rails 6.1.4.1
 
-* Configuration
+* Database PostgreSQL
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Webpacker
