@@ -13,6 +13,6 @@ Here are the technologies used in this project.
 
 * Webpacker
 
-Abaixo ememplo de como esta o layout
+Abaixo exemplo de como esta o layout
 
 ![alt](https://github.com/Jrolisilva/blog_dev_jr/blob/master/example.png)
