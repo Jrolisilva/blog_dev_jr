@@ -12,3 +12,7 @@ Here are the technologies used in this project.
 * Database PostgreSQL
 
 * Webpacker
+
+Abaixo ememplo de como esta o layout
+
+![alt](https://github.com/Jrolisilva/blog_dev_jr/blob/master/example.png)
