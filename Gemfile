@@ -26,6 +26,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'devise'
 # Pagination
 gem 'kaminari'
+# Search Automatization
+gem 'select2-rails'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

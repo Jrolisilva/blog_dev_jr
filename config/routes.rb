@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'blog/index'
   devise_for :users, controllers: {
     sessions: 'users/sessions',
     registrtions: 'users/registrations' 
@@ -8,7 +7,11 @@ Rails.application.routes.draw do
     get 'users/sign_out' => 'devise/sessions#destroy'
   end
   
+  root 'home#index'
   resources :blog, only: [:index]
+
+  resources :posts, except: [:index] do
+    resources :comments
+  end
   
- root 'home#index'
 end
