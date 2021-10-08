@@ -8,14 +8,14 @@ class Users::RegistrationsController < Devise::RegistrationsController
     resource.update_without_password(params)
   end
 
-  private
+  protected
 
   #if you have extra params to permit, append them  to the sinitizer
   def configure_sign_up_params
-    devise_params_sanitizer.permit(:sign_up, keys: [:name, :description, :password, :password_confirmation, :email, :avatar])
+    devise_params_sanitizer.permit(:sign_up, keys: [:name, :description, :password, :email, :password_confirmation, :avatar])
   end
   #if you have extra params to permit, append them  to the sinitizer
   def configure_account_update_params
-    devise_params_sanitizer.permit(:account_update, keys: [:name, :description, :password, :password_confirmation, :email, :avatar])
+    devise_params_sanitizer.permit(:account_update, keys: [:name, :description, :password, :email, :password_confirmation, :avatar])
   end
 end
